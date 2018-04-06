@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+overflow:hidden;
+}
+
+a:link,
+a:visited {
+  color: #5D6063;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #5f308e;
+  color: white;
+}
+
+.menu {
+border-style:groove;
+  background-color: #f0f0f5;
+padding-top: 20px;
+padding-bottom: 20px;
+  padding-left: 30px;
+  margin-left: 40px;
+  height: 10%;
+width: 50%;
+border-radius:8px;
+}
+.menu-2 {
+  border-style:groove;
+ border-radius:8px;
+  background-color: #f0f0f5;
+padding-top: 20px;
+padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 20px;
+  height: 10%;
+width: 35%;
+
+
+}
+
+
+
+.container{
+
+display: flex;
+background-color: #e0e0eb;
+}
+.container2
+{
+
+background-color: white;
+ padding: 9px;
+  margin-left: 2px;
+  margin-right: 2px;
+
+}
+
+.button{
+  border-radius: 5px;
+   padding: 3px 3px;
+   text-align: center;
+}
+
+.sidebar {
+  border-style:groove;;
+  flex:-3 -1 40%;
+
+  height: 100vh; /* Full-height: remove this if you want "auto" height */
+  width: 230px; /* Set the width of the sidebar */
+   /* Fixed Sidebar (stay in place on scroll) */
+
+ /* Disable horizontal scroll */
+  padding-top: 20px;
+
+   background: linear-gradient(to top right, #5f308e 50%, #6600ff 300%);
+  color: white;
+
+  border-radius:8px;
+}
+.content{
+border-style:groove;
+margin-left: 16%;
+margin-top: 7%;
+width: 61%;
+height: 800px;
+position: absolute;
+
+background-color: white;
+display: flex;
+ flex-direction:row;
+ border-radius:8px;
+
+}
+
+.label{
+  margin-left: 16%;
+  margin-top: 5%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-size: 24px;
+  font-weight: bolder;
+
+}
+.logo{
+  padding-left: 7%;
+  padding-bottom: 20%;
+color: LIGHTGREY;
+}
+
+
+.icon{
+  width:150px;
+ display: table-cell;
+  height:200px;
+  margin-top: 15px;
+     margin-left: 20px;
+  border-radius:3px;
+ background-color: #e0e0eb;
+}
+.icon4{
+ display: table-cell;
+ width:150px;
+  height:200px;
+  margin-top: 15px;
+     margin-left: 20px;
+  border-radius:3px;
+ background-color:#e0e0eb;
+}
+
+.main-div{
+
+  padding-top: 25px;
+  display: flex;
+   flex-direction:row;
+
+   float:left;
+
+}
+.icons-div{
+  width: 61%;
+   position: fixed;
+   padding-bottom: 15px;
+padding-left: 30px;
+}
+
+.right-content
+{
+  border-style:groove;
+  font-size: 24px;
+  font-weight: bolder;
+margin-top: 7%;
+margin-left: 79%;
+height: 800px;
+width: 20%;
+background-color: white;
+position: absolute;
+border-radius:8px;
+}
+.html{
+  overflow:auto;
+}
+
+
+.dropdown-container {
+  display: none;
+  background-color: white;
+  padding-left: 8px;
+}
+
+
+.sidebar a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 16px;
+border-style:groove;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  background-color:#5f308e;
+  float: left;
+
+color: LIGHTGREY;
+}
+
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
